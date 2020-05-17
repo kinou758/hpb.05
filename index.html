@@ -1,37 +1,19 @@
-<!DOCTYPE html>
+<form>
+<input name="button2" type="button" onClick="myEnter()" value="秘密のページはここ！">
+<br>
+<img src="images/neko02.gif" width=600 height=300 >
+</form></blockquote>
 
-<html lang="ja">
 
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Slide Menu Sample</title>
-</head>
 
-<body>
+<script language="JavaScript">
+<!--
 
-	<input type="checkbox" id="dummyCheckBox">
+function myEnter(){
+  Input=window.prompt("なななな","");
+  if ( Input == "222" ) location.href="pas.html";
+  else alert( "いつも言ってるやつだよ！" );
+}
 
-	<label id="menuButton" for="dummyCheckBox">
-		<span class="line top"></span>
-		<span class="line middle"></span>
-		<span class="line bottom"></span>
-	</label>
-
-	<label id="closeButtonField" for="dummyCheckBox"></label>
-
-	<nav id="siteNavi">
-		<ul>
-			<li><a href="02.html">01</a></li>
-			<li><a href="home.html">02</a></li>
-
-		</ul>
-	</nav>
-
-	<div id="container">
-		<h1>HAPPY BIRTH DAY!!!!</h1>
-<img src="images/neko.gif" width=200 height=100 >
-		<p>May your birthday be as wonderful as you are!</p>
-	</div>
-</body>
-</html>
+// -->
+</script>
